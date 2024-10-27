@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#taskslist {
+    border: 15px solid salmon;
+    background-color: lightsalmon;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+#addtasks {
+    font-size: 20px;
+    color: lightslategray;
+    height: 30px;
+    width: 200px;
+}
+
+#taskDate, #taskCategory {
+    font-size: 20px;
+    margin: 5px;
+}
+
+#btn, #clearBtn {
+    background-color: skyblue;
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+}
+
+#tasks li {
+    margin: 5px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+body{
+    background-color: lightgrey;
+}
